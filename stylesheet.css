@@ -1,10 +1,17 @@
-body {
+*{
 font-size: 12px;
 font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+html, body {
+height: 100%;
 }
 
 #navbar {
 display: relative;
+padding-top: 15px;
 float: top;
 }
 
@@ -19,29 +26,24 @@ float: right;
 padding-right: 27px;
 }
 
-#navbar a {
+a {
 text-decoration: none;
 color: #404040;
 }
 
-#navbar a:hover {
+a:hover {
 text-decoration: underline;
 }
 
 .center img{
 display: block;
-text-align: center;
-width: 269px;
-height: 95px;
-position: aboslute;
+position: relative;
 padding-top: 140px;
-margin: 0 auto;
 clear: both;
 }
 
 .center form {
 border-top: 10px;
-margin: 0 auto;
 text-align: center;
 width: 100%;
 padding-top: 25px;
@@ -55,6 +57,8 @@ height: 25px;
 #googlesearch {
 background-color: #f8f8f8;
 border: 1px solid #c6c6c6;
+padding-left: 4px;
+padding-right: 4px;
 display: inline-block;
 font-size: 11px;
 }
@@ -62,6 +66,8 @@ font-size: 11px;
 #lucky {
 background-color: #f8f8f8;
 border: 1px solid #c6c6c6;
+padding-left: 4px;
+padding-right: 4px;
 display: inline-block;
 font-size: 11px;
 }
@@ -81,4 +87,29 @@ padding-top: 8px;
 padding-bottom: 8px;
 font-weight: bold;
 color: #222;
+}
+
+#footer {
+height: 24px;
+position: fixed;
+width: 100%;
+bottom: 0;
+border: 1px solid #c6c6c6;
+padding-top: 10px;
+color: #222;
+background-color: #f2f2f2;
+}
+
+#footer li {
+list-style-type: none;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.left {
+float: left;
+}
+
+.right {
+float: right;
 }
