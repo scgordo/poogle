@@ -1,0 +1,84 @@
+body {
+font-size: 12px;
+font-family: Arial, sans-serif;
+}
+
+#navbar {
+display: relative;
+float: top;
+}
+
+#navbar li {
+float: right;
+padding-left: 15px;
+}
+
+#navbar ul {
+list-style-type: none;
+float: right;
+padding-right: 27px;
+}
+
+#navbar a {
+text-decoration: none;
+color: #404040;
+}
+
+#navbar a:hover {
+text-decoration: underline;
+}
+
+.center img{
+display: block;
+text-align: center;
+width: 269px;
+height: 95px;
+position: aboslute;
+padding-top: 140px;
+margin: 0 auto;
+clear: both;
+}
+
+.center form {
+border-top: 10px;
+margin: 0 auto;
+text-align: center;
+width: 100%;
+padding-top: 25px;
+}
+
+form  input{
+width: 550px;
+height: 25px;
+}
+
+#googlesearch {
+background-color: #f8f8f8;
+border: 1px solid #c6c6c6;
+display: inline-block;
+font-size: 11px;
+}
+
+#lucky {
+background-color: #f8f8f8;
+border: 1px solid #c6c6c6;
+display: inline-block;
+font-size: 11px;
+}
+
+#buttons {
+margin-top: 15px;
+text-align: center;
+input-type: submit;
+}
+
+button:first-child {
+margin-right: 12px;
+}
+
+button {
+padding-top: 8px;
+padding-bottom: 8px;
+font-weight: bold;
+color: #222;
+}
